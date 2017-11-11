@@ -1,6 +1,7 @@
 # SnakemanVsSantaOnkel
 Small footballgame I made over an weekend.
-
+<img src="https://i.imgur.com/aSzCaOc.png"></br>
+</br>
 <b>Known issues</b></br>
 -animations are broken for some reasons and need to bo fixed.</br>
 </br>
