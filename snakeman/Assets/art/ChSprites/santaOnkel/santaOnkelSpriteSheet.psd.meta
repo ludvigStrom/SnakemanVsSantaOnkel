@@ -1,0 +1,3263 @@
+fileFormatVersion: 2
+guid: ff085ef2893a2c9468566dc64903cb03
+timeCreated: 1487604675
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: santaOnkelSpriteSheet_0
+    21300002: santaOnkelSpriteSheet_1
+    21300004: santaOnkelSpriteSheet_2
+    21300006: santaOnkelSpriteSheet_3
+    21300008: santaOnkelSpriteSheet_4
+    21300010: santaOnkelSpriteSheet_5
+    21300012: santaOnkelSpriteSheet_6
+    21300014: santaOnkelSpriteSheet_7
+    21300016: santaOnkelSpriteSheet_8
+    21300018: santaOnkelSpriteSheet_9
+    21300020: santaOnkelSpriteSheet_10
+    21300022: santaOnkelSpriteSheet_11
+    21300024: santaOnkelSpriteSheet_12
+    21300026: santaOnkelSpriteSheet_13
+    21300028: santaOnkelSpriteSheet_14
+    21300030: santaOnkelSpriteSheet_15
+    21300032: santaOnkelSpriteSheet_16
+    21300034: santaOnkelSpriteSheet_17
+    21300036: santaOnkelSpriteSheet_18
+    21300038: santaOnkelSpriteSheet_19
+    21300040: santaOnkelSpriteSheet_20
+    21300042: santaOnkelSpriteSheet_21
+    21300044: santaOnkelSpriteSheet_22
+    21300046: santaOnkelSpriteSheet_23
+    21300048: santaOnkelSpriteSheet_24
+    21300050: santaOnkelSpriteSheet_25
+    21300052: santaOnkelSpriteSheet_26
+    21300054: santaOnkelSpriteSheet_27
+    21300056: santaOnkelSpriteSheet_28
+    21300058: santaOnkelSpriteSheet_29
+    21300060: santaOnkelSpriteSheet_30
+    21300062: santaOnkelSpriteSheet_31
+    21300064: santaOnkelSpriteSheet_32
+    21300066: santaOnkelSpriteSheet_33
+    21300068: santaOnkelSpriteSheet_34
+    21300070: santaOnkelSpriteSheet_35
+    21300072: santaOnkelSpriteSheet_36
+    21300074: santaOnkelSpriteSheet_37
+    21300076: santaOnkelSpriteSheet_38
+    21300078: santaOnkelSpriteSheet_39
+    21300080: santaOnkelSpriteSheet_40
+    21300082: santaOnkelSpriteSheet_41
+    21300084: santaOnkelSpriteSheet_42
+    21300086: santaOnkelSpriteSheet_43
+    21300088: santaOnkelSpriteSheet_44
+    21300090: santaOnkelSpriteSheet_45
+    21300092: santaOnkelSpriteSheet_46
+    21300094: santaOnkelSpriteSheet_47
+    21300096: santaOnkelSpriteSheet_48
+    21300098: santaOnkelSpriteSheet_49
+    21300100: santaOnkelSpriteSheet_50
+    21300102: santaOnkelSpriteSheet_51
+    21300104: santaOnkelSpriteSheet_52
+    21300106: santaOnkelSpriteSheet_53
+    21300108: santaOnkelSpriteSheet_54
+    21300110: santaOnkelSpriteSheet_55
+    21300112: santaOnkelSpriteSheet_56
+    21300114: santaOnkelSpriteSheet_57
+    21300116: santaOnkelSpriteSheet_58
+    21300118: santaOnkelSpriteSheet_59
+    21300120: santaOnkelSpriteSheet_60
+    21300122: santaOnkelSpriteSheet_61
+    21300124: santaOnkelSpriteSheet_62
+    21300126: santaOnkelSpriteSheet_63
+    21300128: santaOnkelSpriteSheet_64
+    21300130: santaOnkelSpriteSheet_65
+    21300132: santaOnkelSpriteSheet_66
+    21300134: santaOnkelSpriteSheet_67
+    21300136: santaOnkelSpriteSheet_68
+    21300138: santaOnkelSpriteSheet_69
+    21300140: santaOnkelSpriteSheet_70
+    21300142: santaOnkelSpriteSheet_71
+    21300144: santaOnkelSpriteSheet_72
+    21300146: santaOnkelSpriteSheet_73
+    21300148: santaOnkelSpriteSheet_74
+    21300150: santaOnkelSpriteSheet_75
+    21300152: santaOnkelSpriteSheet_76
+    21300154: santaOnkelSpriteSheet_77
+    21300156: santaOnkelSpriteSheet_78
+    21300158: santaOnkelSpriteSheet_79
+    21300160: santaOnkelSpriteSheet_80
+    21300162: santaOnkelSpriteSheet_81
+    21300164: santaOnkelSpriteSheet_82
+    21300166: santaOnkelSpriteSheet_83
+    21300168: santaOnkelSpriteSheet_84
+    21300170: santaOnkelSpriteSheet_85
+    21300172: santaOnkelSpriteSheet_86
+    21300174: santaOnkelSpriteSheet_87
+    21300176: santaOnkelSpriteSheet_88
+    21300178: santaOnkelSpriteSheet_89
+    21300180: santaOnkelSpriteSheet_90
+    21300182: santaOnkelSpriteSheet_91
+    21300184: santaOnkelSpriteSheet_92
+    21300186: santaOnkelSpriteSheet_93
+    21300188: santaOnkelSpriteSheet_94
+    21300190: santaOnkelSpriteSheet_95
+    21300192: santaOnkelSpriteSheet_96
+    21300194: santaOnkelSpriteSheet_97
+    21300196: santaOnkelSpriteSheet_98
+    21300198: santaOnkelSpriteSheet_99
+    21300200: santaOnkelSpriteSheet_100
+    21300202: santaOnkelSpriteSheet_101
+    21300204: santaOnkelSpriteSheet_102
+    21300206: santaOnkelSpriteSheet_103
+    21300208: santaOnkelSpriteSheet_104
+    21300210: santaOnkelSpriteSheet_105
+    21300212: santaOnkelSpriteSheet_106
+    21300214: santaOnkelSpriteSheet_107
+    21300216: santaOnkelSpriteSheet_108
+    21300218: santaOnkelSpriteSheet_109
+    21300220: santaOnkelSpriteSheet_110
+    21300222: santaOnkelSpriteSheet_111
+    21300224: santaOnkelSpriteSheet_112
+    21300226: santaOnkelSpriteSheet_113
+    21300228: santaOnkelSpriteSheet_114
+    21300230: santaOnkelSpriteSheet_115
+    21300232: santaOnkelSpriteSheet_116
+    21300234: santaOnkelSpriteSheet_117
+    21300236: santaOnkelSpriteSheet_118
+    21300238: santaOnkelSpriteSheet_119
+    21300240: santaOnkelSpriteSheet_120
+    21300242: santaOnkelSpriteSheet_121
+    21300244: santaOnkelSpriteSheet_122
+    21300246: santaOnkelSpriteSheet_123
+    21300248: santaOnkelSpriteSheet_124
+    21300250: santaOnkelSpriteSheet_125
+    21300252: santaOnkelSpriteSheet_126
+    21300254: santaOnkelSpriteSheet_127
+    21300256: santaOnkelSpriteSheet_128
+    21300258: santaOnkelSpriteSheet_129
+    21300260: santaOnkelSpriteSheet_130
+    21300262: santaOnkelSpriteSheet_131
+    21300264: santaOnkelSpriteSheet_132
+    21300266: santaOnkelSpriteSheet_133
+    21300268: santaOnkelSpriteSheet_134
+    21300270: santaOnkelSpriteSheet_135
+    21300272: santaOnkelSpriteSheet_136
+    21300274: santaOnkelSpriteSheet_137
+    21300276: santaOnkelSpriteSheet_138
+    21300278: santaOnkelSpriteSheet_139
+    21300280: santaOnkelSpriteSheet_140
+    21300282: santaOnkelSpriteSheet_141
+    21300284: santaOnkelSpriteSheet_142
+    21300286: santaOnkelSpriteSheet_143
+    21300288: santaOnkelSpriteSheet_144
+    21300290: santaOnkelSpriteSheet_145
+    21300292: santaOnkelSpriteSheet_146
+    21300294: santaOnkelSpriteSheet_147
+    21300296: santaOnkelSpriteSheet_148
+    21300298: santaOnkelSpriteSheet_149
+    21300300: santaOnkelSpriteSheet_150
+    21300302: santaOnkelSpriteSheet_151
+    21300304: santaOnkelSpriteSheet_152
+    21300306: santaOnkelSpriteSheet_153
+    21300308: santaOnkelSpriteSheet_154
+    21300310: santaOnkelSpriteSheet_155
+    21300312: santaOnkelSpriteSheet_156
+    21300314: santaOnkelSpriteSheet_157
+    21300316: santaOnkelSpriteSheet_158
+    21300318: santaOnkelSpriteSheet_159
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: santaOnkelSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -9, y: 9}
+        - {x: -10, y: 2}
+        - {x: -10, y: -23}
+        - {x: -6, y: -24}
+        - {x: 9, y: -24}
+        - {x: 11, y: -21}
+        - {x: 11, y: 12}
+        - {x: 6, y: 14}
+    - name: santaOnkelSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 13}
+        - {x: -5, y: 13}
+        - {x: -10, y: 9}
+        - {x: -10, y: -22}
+        - {x: -8, y: -23}
+        - {x: -5, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -20}
+        - {x: 12, y: -9}
+        - {x: 12, y: 10}
+    - name: santaOnkelSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 12}
+        - {x: 4, y: 13}
+        - {x: 0, y: 13}
+        - {x: -5, y: 12}
+        - {x: -11, y: 7}
+        - {x: -11, y: -23}
+        - {x: -10, y: -24}
+        - {x: 5, y: -24}
+        - {x: 11, y: -22}
+        - {x: 11, y: 7}
+    - name: santaOnkelSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -10}
+        - {x: -10, y: -20}
+        - {x: -8, y: -24}
+        - {x: 6, y: -24}
+        - {x: 10, y: -23}
+        - {x: 10, y: 7}
+        - {x: 6, y: 13}
+        - {x: -3, y: 13}
+        - {x: -11, y: 10}
+    - name: santaOnkelSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -10, y: 10}
+        - {x: -10, y: -23}
+        - {x: -6, y: -24}
+        - {x: 10, y: -24}
+        - {x: 11, y: -23}
+        - {x: 11, y: 11}
+        - {x: 9, y: 13}
+    - name: santaOnkelSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 272
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 176
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    - name: santaOnkelSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -14}
+        - {x: -10, y: -16}
+        - {x: -10, y: -20}
+        - {x: -9, y: -24}
+        - {x: 5, y: -24}
+        - {x: 10, y: -22}
+        - {x: 10, y: -18}
+        - {x: 9, y: -14}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
