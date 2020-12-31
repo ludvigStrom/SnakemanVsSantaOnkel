@@ -147,21 +147,16 @@ public class GameManager : MonoBehaviour {
 
         GameObject playerwon = m_RoundWinner.GetPlayerObject();
 
-        Debug.Log(playerwon.name + " is the name of the gameobject that scored this round");
-
         Animator animator = playerwon.GetComponent<Animator>();
         animator.SetBool("Scored", true);
 
         string message = EndMessage();
         m_MessageText.text = message;
 
-        Debug.Log("Round ends");
 
         yield return m_EndWait;
 
         animator.SetBool("Scored", false);
-
-        Debug.Log("Round ends");
 
         Destroy(currentSoccerBall);
     }

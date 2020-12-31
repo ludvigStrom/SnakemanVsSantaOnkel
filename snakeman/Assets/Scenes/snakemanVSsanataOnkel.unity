@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 85765930}
   - component: {fileID: 85765932}
   - component: {fileID: 85765933}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SantasGoal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -898,6 +898,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1894533684187366, guid: d25b52b8e54103d4987767427c03d05f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4498753156641250, guid: d25b52b8e54103d4987767427c03d05f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -938,6 +942,11 @@ PrefabInstance:
     - target: {fileID: 212668032690206304, guid: d25b52b8e54103d4987767427c03d05f,
         type: 3}
       propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212668032690206304, guid: d25b52b8e54103d4987767427c03d05f,
+        type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212668032690206304, guid: d25b52b8e54103d4987767427c03d05f,
@@ -1072,7 +1081,7 @@ GameObject:
   - component: {fileID: 1379461860}
   - component: {fileID: 1379461862}
   - component: {fileID: 1379461863}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SnakemansGoal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1205,7 +1214,7 @@ GameObject:
   - component: {fileID: 1394021777}
   - component: {fileID: 1394021776}
   - component: {fileID: 1394021775}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: soccerField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1619,6 +1628,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1442369455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1329429131930026, guid: 6af910253ccdbf5488cc1f673bee5f13,
+    type: 3}
+  m_PrefabInstance: {fileID: 1923307922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1442369462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442369455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7513363ce3f4c834ba73f9dd634b10e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pixelsPerUnit: 16
 --- !u!1001 &1923307922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1629,6 +1657,10 @@ PrefabInstance:
     - target: {fileID: 1329429131930026, guid: 6af910253ccdbf5488cc1f673bee5f13, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329429131930026, guid: 6af910253ccdbf5488cc1f673bee5f13, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4035132059528352, guid: 6af910253ccdbf5488cc1f673bee5f13, type: 3}
       propertyPath: m_RootOrder
@@ -1670,12 +1702,17 @@ PrefabInstance:
     - target: {fileID: 212191601261597938, guid: 6af910253ccdbf5488cc1f673bee5f13,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -100
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 212191601261597938, guid: 6af910253ccdbf5488cc1f673bee5f13,
         type: 3}
       propertyPath: m_SortingLayerID
       value: 1427100035
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175430275890775451, guid: 6af910253ccdbf5488cc1f673bee5f13,
+        type: 3}
+      propertyPath: offset
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af910253ccdbf5488cc1f673bee5f13, type: 3}
