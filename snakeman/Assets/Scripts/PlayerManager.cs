@@ -29,6 +29,11 @@ public class PlayerManager{
 
     }
 
+    public GameObject GetPlayerObject()
+    {
+        return m_Movement.GetPlayerObject();
+    }
+
     public void EnableControl()
     {
         m_Movement.enabled = true;
@@ -37,7 +42,6 @@ public class PlayerManager{
     public void Reset()
     {
         m_Instance.transform.position = m_SpawnPoint.position;
-        //rotation?
 
         m_Instance.SetActive(false);
         m_Instance.SetActive(true);

@@ -13,7 +13,6 @@ public class playerMovement : MonoBehaviour {
     private Vector2 movement_vector;
 
     private ParticleSystem ps;
-
     
     // Use this for initialization
     void Start () {
@@ -23,7 +22,6 @@ public class playerMovement : MonoBehaviour {
 
         lastPosition = this.transform.position;
 	}
-
 
     void Update()
     {
@@ -55,6 +53,11 @@ public class playerMovement : MonoBehaviour {
 
         //store position
         lastPosition = this.transform.position;
+    }
+
+    public GameObject GetPlayerObject()
+    {
+        return this.gameObject;
     }
 
     //apply particle effect if sliding (moving but no player inputs)

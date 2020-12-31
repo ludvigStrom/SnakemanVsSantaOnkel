@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour {
 
     private GameObject currentSoccerBall;
 
+    private playerMovement m_Movement;
+
     // Use this for initialization
     void Start () {
         lastScorer = null;
@@ -39,7 +41,6 @@ public class GameManager : MonoBehaviour {
         StartCoroutine(GameLoop());
 	}
 
-
     private void SpawnAllPlayers()
     {
         for(int i = 0; i < m_Players.Length; i++)
@@ -51,7 +52,6 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-	
     private void SetCameraTargets()
     {
         Transform[] targets = new Transform[m_Players.Length];
@@ -141,15 +141,27 @@ public class GameManager : MonoBehaviour {
             m_RoundWinner = lastScorer;
         }
 
-
         DisablePlayerControl();
 
         m_GameWinner = GetGameWinner();
 
+        GameObject playerwon = m_RoundWinner.GetPlayerObject();
+
+        Debug.Log(playerwon.name + " is the name of the gameobject that scored this round");
+
+        Animator animator = playerwon.GetComponent<Animator>();
+        animator.SetBool("Scored", true);
+
         string message = EndMessage();
         m_MessageText.text = message;
 
+        Debug.Log("Round ends");
+
         yield return m_EndWait;
+
+        animator.SetBool("Scored", false);
+
+        Debug.Log("Round ends");
 
         Destroy(currentSoccerBall);
     }
