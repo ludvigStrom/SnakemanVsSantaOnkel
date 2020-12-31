@@ -16,7 +16,7 @@ public class PlayerManager{
     private playerMovement m_Movement;
 
 	public void Setup () {
-        m_Wins = 0; //test!!
+        m_Wins = 0; 
         m_Movement = m_Instance.GetComponent<playerMovement>();
         m_Movement.playerId = m_PlayerNumber;
         m_ColoredPlayerText = "<color=#" + ColorUtility.ToHtmlStringRGB(m_PlayerColor) + ">" + M_PlayerName + "</color>";
@@ -24,9 +24,7 @@ public class PlayerManager{
 	
     public void DisableControl()
     {
-        //m_Movement.anim.SetBool("isWalking", false);
         m_Movement.enabled = false;
-
     }
 
     public GameObject GetPlayerObject()

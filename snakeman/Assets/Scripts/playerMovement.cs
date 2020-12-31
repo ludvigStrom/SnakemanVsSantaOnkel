@@ -44,14 +44,11 @@ public class playerMovement : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        
-        //correct diagonal speed
+
         movement_vector *= (Mathf.Abs(movement_vector.x) == 1 && Mathf.Abs(movement_vector.y) == 1) ? .7f : 1;
 
-        //apply force
         rbody.AddForce(movement_vector * Time.deltaTime * speed);
 
-        //store position
         lastPosition = this.transform.position;
     }
 
@@ -60,7 +57,6 @@ public class playerMovement : MonoBehaviour {
         return this.gameObject;
     }
 
-    //apply particle effect if sliding (moving but no player inputs)
     private void addParticleFx()
     {
         if (ps != null)
@@ -77,12 +73,11 @@ public class playerMovement : MonoBehaviour {
         }
     }
 
-    //checks if the player is sliding. (no input but moves
+
     private bool sliding()
     {
         if (movement_vector == Vector2.zero && lastPosition != this.transform.position)
         {
-            //Debug.Log("Sliding");
             return true;
         }
         else
