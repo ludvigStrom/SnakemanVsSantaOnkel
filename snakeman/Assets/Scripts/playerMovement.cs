@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 using System.Collections;
 
 public class playerMovement : MonoBehaviour {
@@ -23,12 +24,11 @@ public class playerMovement : MonoBehaviour {
         lastPosition = this.transform.position;
 	}
 
-    void Update()
-    {
-        //get input
-        movement_vector = new Vector2(Input.GetAxisRaw("Horizontal" + playerId), Input.GetAxisRaw("Vertical" + playerId)); //raw = binaray GetAxis anlog
 
-        //set walking animation variables
+    public void OnMove(InputValue value)
+    {
+        movement_vector = value.Get<Vector2>();
+
         if (movement_vector != Vector2.zero)
         {
             anim.SetBool("isWalking", true);
@@ -39,7 +39,10 @@ public class playerMovement : MonoBehaviour {
         {
             anim.SetBool("isWalking", false);
         }
+    }
 
+    void Update()
+    {
         addParticleFx();
     }
 

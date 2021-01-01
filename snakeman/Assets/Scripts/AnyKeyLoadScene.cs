@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class AnyKeyLoadScene : MonoBehaviour {
@@ -9,7 +10,7 @@ public class AnyKeyLoadScene : MonoBehaviour {
 
     void Update()
     {
-        if (Input.anyKey && sceneToLoad != null)
+        if (Keyboard.current.anyKey.isPressed && sceneToLoad != null)
             SceneManager.LoadScene(sceneToLoad);
     }
 }
