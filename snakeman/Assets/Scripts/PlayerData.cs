@@ -30,7 +30,7 @@ public class PlayerData : MonoBehaviour
         spawnPoint = sp;
     }
 
-    public void SpawnPlayer()
+    public void ResetToSpawn()
     {
         this.transform.position = spawnPoint.position;
     }

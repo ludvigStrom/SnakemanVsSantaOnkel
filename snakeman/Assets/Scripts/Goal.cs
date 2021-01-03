@@ -5,23 +5,28 @@ using UnityEngine;
 public class Goal : MonoBehaviour
 {
     private GameManager gameManager;
-    public int playerNr;
+    private Teams teams;
 
-    public TeamId teamId;
+    [Tooltip("The team who scores if the ball enter the goal")]
+    public TeamId GoalId;
+
 
     void Start()
     {
+        teams = GameObject.FindGameObjectWithTag("Teams").GetComponent<Teams>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        /*
-        if(other.gameObject.tag == "Ball"){
-            gm.players[playerNr].m_Wins++;
-            gm.hasScored = true;
-            gm.lastScorer = gm.players[playerNr];
-        }*/
+        if (other.gameObject.tag == "Ball")
+        {
+            teams.addGoal(GoalId);
+            Debug.Log(GoalId + " scores");
+
+            gameManager.lastScorer = GoalId;
+            gameManager.hasScored = true;
+        }
     }
 }
 

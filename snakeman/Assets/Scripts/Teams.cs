@@ -13,34 +13,62 @@ public class Teams : MonoBehaviour
 {
     private Team teamOne;
     private Team teamTwo;
-    List<Team> teams = new List<Team>();
-
-    [SerializeField]
+    List<Team> teams; 
     private SpawnPointManager spawnPointManager;
 
     public void Start()
     {
         spawnPointManager = GameObject.Find("SpawnPointManager").GetComponent<SpawnPointManager>();
         
-        Team teamOne = new Team(TeamId.SnakeMan);
-        Team teamTwo = new Team(TeamId.SantaOnkel);
+        teamOne = new Team(TeamId.SnakeMan);
+        teamTwo = new Team(TeamId.SantaOnkel);
+
+        teams = new List<Team>();
         teams.Add(teamOne);
         teams.Add(teamTwo);
     }
 
     public void addPlayersToTeams(GameObject[] playersToAdd)
     {
+        Debug.Log("Number of teams:" + teams.Count);
         foreach(Team team in teams)
         {
             foreach(GameObject player in playersToAdd)
             {
+                Debug.Log("Add player to team " + team.getTeamId());
                 PlayerData playerData = player.GetComponent<PlayerData>();
                 
                 if(playerData.GetTeamId() == team.getTeamId())
                 {
-                    teamOne.addToTeam(player);
+                    team.addToTeam(player);
                 }
             }
+        }
+    }
+
+    public Team getTeamById(TeamId id)
+    {
+        int offsetFromIndex = 1;
+        return teams[(int)id - offsetFromIndex];
+    }
+
+    public string ShowScore()
+    {
+        return teamOne.getGoals() + "-" + teamTwo.getGoals();
+    }
+
+    public void addGoal(TeamId id)
+    {
+        if(id == TeamId.SnakeMan)
+        {
+            teamOne.addGoal();
+        }else if(id == TeamId.SantaOnkel)
+        {
+            teamTwo.addGoal();
+        }
+        else
+        {
+            Debug.Log("No score set, check id on goal");
         }
     }
 
@@ -65,7 +93,6 @@ public class Teams : MonoBehaviour
                 return team.getTeamId();
             }
         }
-
         return TeamId.NoId;
     }
 
@@ -104,6 +131,11 @@ public class Teams : MonoBehaviour
             this.goals = 0;
         }
 
+        public void addGoal()
+        {
+            goals++;
+        }
+
         public TeamId getTeamId()
         {
             return teamId;
@@ -127,6 +159,5 @@ public class Teams : MonoBehaviour
             return goals;
         }
     }
-
 }
 

@@ -21,26 +21,28 @@ public class GameManager : MonoBehaviour {
     private WaitForSeconds startWait;
     private WaitForSeconds endWait;
 
-    private PlayerData roundWinner;
+    private TeamId roundWinner;
     private TeamId gameWinner;
+    public TeamId lastScorer;
 
     private GameObject currentSoccerBall;
 
     private playerMovement movement;
 
-    private PlayerData lastScorer;
     public GameObject[] players;
     private Teams teams;
 
     private SpawnPointManager spawnPointManager;
 
     void Start () {
+        roundWinner = TeamId.NoId;
+
         cameraControl = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraControl>();
 
         spawnPointManager = GameObject.Find("SpawnPointManager").GetComponent<SpawnPointManager>();
         spawnPointManager.initializeSpawnPoints();
 
-        lastScorer = null;
+        lastScorer = TeamId.NoId;
         startWait = new WaitForSeconds(startDelay);
         endWait = new WaitForSeconds(endDelay);
 
@@ -55,13 +57,14 @@ public class GameManager : MonoBehaviour {
     private void SetupAllPlayers()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
-        PlayerData[] allPlayersData = FindObjectsOfType<PlayerData>();
+        teams.addPlayersToTeams(players);
 
-        spawnPointManager.assignSpawnPoints(allPlayersData);
+        PlayerData[] allPlayersData = FindObjectsOfType<PlayerData>();
+        spawnPointManager.assignSpawnPoints(allPlayersData);        
 
         foreach (PlayerData player in allPlayersData)
         {
-            player.SpawnPlayer();
+            player.ResetToSpawn();
         }
     }
 
@@ -85,7 +88,7 @@ public class GameManager : MonoBehaviour {
         yield return StartCoroutine(RoundPlaying());
         yield return StartCoroutine(RoundEnding());
 
-        if(returnMostGoals() >= roundsToWin)
+        if(teams.returnMostGoals() >= roundsToWin)
         {
             SceneManager.LoadScene("MainMenu");
         }
@@ -93,11 +96,6 @@ public class GameManager : MonoBehaviour {
         {
             StartCoroutine(GameLoop());
         }
-    }
-
-    private int returnMostGoals()
-    {
-        return teams.returnMostGoals();
     }
 
     private IEnumerator RoundStarting()
@@ -159,7 +157,7 @@ public class GameManager : MonoBehaviour {
     private IEnumerator RoundEnding()
     {
         
-        if(lastScorer != null)
+        if(lastScorer != TeamId.NoId)
         {
             roundWinner = lastScorer;
         }
@@ -168,16 +166,17 @@ public class GameManager : MonoBehaviour {
 
         gameWinner = GetGameWinner();
 
-        GameObject playerwon = roundWinner.GetPlayerObject();
+        TeamId playerwon = roundWinner;
 
+        /*TODO: Animation of socrer
         Animator animator = playerwon.GetComponent<Animator>();
-
         animator.SetBool("Scored", true);
+        */
 
         string message = EndMessage();
         messageText.text = message;
 
-        animator.SetBool("Scored", false);
+        //animator.SetBool("Scored", false);
 
         yield return endWait;
         Destroy(currentSoccerBall);
@@ -190,34 +189,24 @@ public class GameManager : MonoBehaviour {
 
     private string EndMessage()
     {
-        /*
-        if(roundWinner != null)
+        Debug.Log("Last scorer is: " + lastScorer);
+        Debug.Log("Round winner is: " + roundWinner);
+        Debug.Log("Score is: " + teams.ShowScore());
+
+        String message = "";
+
+        if(lastScorer != TeamId.NoId)
         {
-            message = roundWinner.m_ColoredPlayerText + " WINS THE ROUND!";
+            message = lastScorer + " wins the round!";
         }
 
-        message += "\n\n\n\n";
+        message += "\n\n\n\n" + teams.ShowScore();
 
-        for(int i = 0; i < players.Length; i++)
+        if (gameWinner != TeamId.NoId)
         {
-            message += players[i].m_Wins;
-            if(i + 1 < players.Length)
-            {
-                message += "-";
-            }
-        }
-
-        if (gameWinner != null)
-        {
-            message = gameWinner.m_ColoredPlayerText + " WINS THE GAME!";
-        }else{
-            string message = "no winner";
+            message = gameWinner + " wins the game!";
         }
         
-
         return message;
-        */
-        return null;
     }
-
 }
