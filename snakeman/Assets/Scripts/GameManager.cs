@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour {
     private SpawnPointManager spawnPointManager;
 
     void Start () {
+
         roundWinner = TeamId.NoId;
 
         cameraControl = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraControl>();
@@ -189,10 +190,6 @@ public class GameManager : MonoBehaviour {
 
     private string EndMessage()
     {
-        Debug.Log("Last scorer is: " + lastScorer);
-        Debug.Log("Round winner is: " + roundWinner);
-        Debug.Log("Score is: " + teams.ShowScore());
-
         String message = "";
 
         if(lastScorer != TeamId.NoId)

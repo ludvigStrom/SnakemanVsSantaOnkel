@@ -4,6 +4,9 @@ using System.Collections;
 
 public class playerMovement : MonoBehaviour {
 
+    [SerializeField]
+    private int playerIndex = 0;
+
     public float speed;
     public int playerId;
 
@@ -15,6 +18,13 @@ public class playerMovement : MonoBehaviour {
 
     private ParticleSystem particles;
 
+    
+
+    public int GetPlayerIndex()
+    {
+        return playerIndex;
+    }
+
     private void Awake(){
         anim = GetComponent<Animator>();
     }
@@ -25,9 +35,9 @@ public class playerMovement : MonoBehaviour {
         lastPosition = this.transform.position;
 	}
 
-    public void OnMove(InputValue value){
+    public void SetInputVector(Vector2 input){
 
-        movement_vector = value.Get<Vector2>();
+        movement_vector = input;
 
         if (movement_vector != Vector2.zero)
         {
@@ -37,7 +47,6 @@ public class playerMovement : MonoBehaviour {
         } else{
             anim.SetBool("isWalking", false);
         }
-
     }
 
     void Update(){

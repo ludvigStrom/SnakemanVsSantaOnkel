@@ -22,8 +22,6 @@ public class Goal : MonoBehaviour
         if (other.gameObject.tag == "Ball")
         {
             teams.addGoal(GoalId);
-            Debug.Log(GoalId + " scores");
-
             gameManager.lastScorer = GoalId;
             gameManager.hasScored = true;
         }

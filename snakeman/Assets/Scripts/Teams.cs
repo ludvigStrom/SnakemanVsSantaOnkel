@@ -16,10 +16,10 @@ public class Teams : MonoBehaviour
     List<Team> teams; 
     private SpawnPointManager spawnPointManager;
 
-    public void Start()
+    public void Awake()
     {
         spawnPointManager = GameObject.Find("SpawnPointManager").GetComponent<SpawnPointManager>();
-        
+
         teamOne = new Team(TeamId.SnakeMan);
         teamTwo = new Team(TeamId.SantaOnkel);
 
@@ -30,12 +30,10 @@ public class Teams : MonoBehaviour
 
     public void addPlayersToTeams(GameObject[] playersToAdd)
     {
-        Debug.Log("Number of teams:" + teams.Count);
         foreach(Team team in teams)
         {
             foreach(GameObject player in playersToAdd)
             {
-                Debug.Log("Add player to team " + team.getTeamId());
                 PlayerData playerData = player.GetComponent<PlayerData>();
                 
                 if(playerData.GetTeamId() == team.getTeamId())
