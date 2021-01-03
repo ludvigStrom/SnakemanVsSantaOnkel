@@ -83,7 +83,7 @@ public class CameraControl : MonoBehaviour
         Vector3 desiredLocalPos = transform.InverseTransformPoint(m_DesiredPosition);
 
         // Start the camera's size calculation at zero.
-        float size = 0f;
+        float cameraSize = 0f;
 
         // Go through all the targets...
         for (int i = 0; i < m_Targets.Length; i++)
@@ -99,19 +99,19 @@ public class CameraControl : MonoBehaviour
             Vector3 desiredPosToTarget = targetLocalPos - desiredLocalPos;
 
             // Choose the largest out of the current size and the distance of the player is 'up' or 'down' from the camera.
-            size = Mathf.Max(size, Mathf.Abs(desiredPosToTarget.y));
+            cameraSize = Mathf.Max(cameraSize, Mathf.Abs(desiredPosToTarget.y));
 
             // Choose the largest out of the current size and the calculated size based on the tank being to the left or right of the camera.
-            size = Mathf.Max(size, Mathf.Abs(desiredPosToTarget.x) / m_Camera.aspect);
+            cameraSize = Mathf.Max(cameraSize, Mathf.Abs(desiredPosToTarget.x) / m_Camera.aspect);
         }
 
         // Add the edge buffer to the size.
-        size += m_ScreenEdgeBuffer;
+        cameraSize += m_ScreenEdgeBuffer;
 
         // Make sure the camera's size isn't below the minimum.
-        size = Mathf.Max(size, m_MinSize);
+        cameraSize = Mathf.Max(cameraSize, m_MinSize);
 
-        return size;
+        return cameraSize;
     }
 
 

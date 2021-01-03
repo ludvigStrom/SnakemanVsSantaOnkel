@@ -13,7 +13,7 @@ public class playerMovement : MonoBehaviour {
     private Vector3 lastPosition;
     private Vector2 movement_vector;
 
-    private ParticleSystem ps;
+    private ParticleSystem particles;
 
     private void Awake(){
         anim = GetComponent<Animator>();
@@ -21,7 +21,7 @@ public class playerMovement : MonoBehaviour {
 
     void Start () {
         rbody = GetComponent<Rigidbody2D>();
-        ps = GetComponentInChildren<ParticleSystem>();
+        particles = GetComponentInChildren<ParticleSystem>();
         lastPosition = this.transform.position;
 	}
 
@@ -55,14 +55,14 @@ public class playerMovement : MonoBehaviour {
 
     private void addParticleFx()
     {
-        if (ps != null)
+        if (particles != null)
         {
-            var em = ps.emission;
-            if (sliding() && !ps.emission.enabled)
+            var em = particles.emission;
+            if (sliding() && !particles.emission.enabled)
             {
                 em.enabled = true;
             }
-            else if (!sliding() && ps.emission.enabled)
+            else if (!sliding() && particles.emission.enabled)
             {
                 em.enabled = false;
             }

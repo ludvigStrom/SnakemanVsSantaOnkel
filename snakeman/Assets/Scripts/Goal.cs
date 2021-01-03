@@ -4,21 +4,24 @@ using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
-    private GameManager gm;
+    private GameManager gameManager;
     public int playerNr;
+
+    public TeamId teamId;
 
     void Start()
     {
-        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        /*
         if(other.gameObject.tag == "Ball"){
-            gm.m_Players[playerNr].m_Wins++;
+            gm.players[playerNr].m_Wins++;
             gm.hasScored = true;
-            gm.lastScorer = gm.m_Players[playerNr];
-        }
+            gm.lastScorer = gm.players[playerNr];
+        }*/
     }
 }
 

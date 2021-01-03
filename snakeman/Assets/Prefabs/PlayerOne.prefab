@@ -4827,6 +4827,7 @@ GameObject:
   - component: {fileID: 4498753156641250}
   - component: {fileID: 212668032690206304}
   - component: {fileID: 95855077835328752}
+  - component: {fileID: -9154449860175473785}
   - component: {fileID: 114493341824298592}
   - component: {fileID: 58374181099173252}
   - component: {fileID: 50608938925521878}
@@ -4924,6 +4925,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-9154449860175473785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894533684187366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6d6d288525f244894ea075fff7a8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerColor: {r: 0.18823531, g: 0.5058824, b: 0.10980393, a: 1}
+  spawnPoint: {fileID: 0}
+  playerName: Snake Man
+  playerId: 1
+  teamId: 1
+  coloredPlayerText: 
+  instance: {fileID: 0}
 --- !u!114 &114493341824298592
 MonoBehaviour:
   m_ObjectHideFlags: 0

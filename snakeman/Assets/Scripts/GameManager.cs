@@ -1,66 +1,82 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     public bool hasScored = false;
-    public PlayerManager lastScorer;
 
-    public int m_NumRoundsToWin = 3;
+    public int roundsToWin = 3;
     public int startDelay;
     public int endDelay;
-    public CameraControl m_CameraControl;
-    public Text m_MessageText;
-    public GameObject[] playerObjects;
-    public PlayerManager[] m_Players;
-
+    private CameraControl cameraControl;
+    public Text messageText;
+ 
     public GameObject PrefabSoccerBall;
     public Transform soccerBallSpawnPoint;
 
-    private int m_RoundNumber;
-    private WaitForSeconds m_StartWait;
-    private WaitForSeconds m_EndWait;
-    private PlayerManager m_RoundWinner;
-    private PlayerManager m_GameWinner;
+    private int roundNumber;
+    private WaitForSeconds startWait;
+    private WaitForSeconds endWait;
+
+    private PlayerData roundWinner;
+    private TeamId gameWinner;
 
     private GameObject currentSoccerBall;
 
-    private playerMovement m_Movement;
+    private playerMovement movement;
 
-    // Use this for initialization
+    private PlayerData lastScorer;
+    public GameObject[] players;
+    private Teams teams;
+
+    private SpawnPointManager spawnPointManager;
+
     void Start () {
-        lastScorer = null;
-        m_StartWait = new WaitForSeconds(startDelay);
-        m_EndWait = new WaitForSeconds(endDelay);
+        cameraControl = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraControl>();
 
-        SpawnAllPlayers();
+        spawnPointManager = GameObject.Find("SpawnPointManager").GetComponent<SpawnPointManager>();
+        spawnPointManager.initializeSpawnPoints();
+
+        lastScorer = null;
+        startWait = new WaitForSeconds(startDelay);
+        endWait = new WaitForSeconds(endDelay);
+
+        teams = GameObject.FindGameObjectWithTag("Teams").GetComponent<Teams>();
+
+        SetupAllPlayers();
         SetCameraTargets();
 
         StartCoroutine(GameLoop());
 	}
 
-    private void SpawnAllPlayers()
+    private void SetupAllPlayers()
     {
-        for(int i = 0; i < m_Players.Length; i++)
+        players = GameObject.FindGameObjectsWithTag("Player");
+        PlayerData[] allPlayersData = FindObjectsOfType<PlayerData>();
+
+        spawnPointManager.assignSpawnPoints(allPlayersData);
+
+        foreach (PlayerData player in allPlayersData)
         {
-            m_Players[i].m_Instance =
-                Instantiate(playerObjects[i], m_Players[i].m_SpawnPoint.position, m_Players[i].m_SpawnPoint.rotation) as GameObject;
-            m_Players[i].m_PlayerNumber = i + 1;
-            m_Players[i].Setup();
+            player.SpawnPlayer();
         }
     }
 
     private void SetCameraTargets()
     {
-        Transform[] targets = new Transform[m_Players.Length];
+        Transform[] targets = new Transform[players.Length];
 
-        for (int i = 0; i < targets.Length; i++)
+        int i = 0;
+        foreach(GameObject player in players)
         {
-            targets[i] = m_Players[i].m_Instance.transform;
+            targets[i] = player.gameObject.transform;
+            i++;
         }
-        m_CameraControl.m_Targets = targets;
+
+        cameraControl.m_Targets = targets;
     }
 
     private IEnumerator GameLoop()
@@ -69,7 +85,7 @@ public class GameManager : MonoBehaviour {
         yield return StartCoroutine(RoundPlaying());
         yield return StartCoroutine(RoundEnding());
 
-        if(m_GameWinner != null)
+        if(returnMostGoals() >= roundsToWin)
         {
             SceneManager.LoadScene("MainMenu");
         }
@@ -79,45 +95,52 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    private int returnMostGoals()
+    {
+        return teams.returnMostGoals();
+    }
+
     private IEnumerator RoundStarting()
     {
         hasScored = false;
 
-        //Instantiate 
         currentSoccerBall = Instantiate(PrefabSoccerBall, soccerBallSpawnPoint.position, soccerBallSpawnPoint.rotation) as GameObject;
 
         ResetAllPlayers();
         DisablePlayerControl();
 
-        m_CameraControl.SetStartPositionAndSize();
+        cameraControl.SetStartPositionAndSize();
 
-        m_RoundNumber++;
-        m_MessageText.text = "ROUND " + m_RoundNumber;
+        roundNumber++;
+        messageText.text = "ROUND " + roundNumber;
 
-        yield return m_StartWait;
+        yield return startWait;
     }
 
     private void DisablePlayerControl()
     {
-        for (int i = 0; i < m_Players.Length; i++)
+        foreach (GameObject player in players)
         {
-            m_Players[i].DisableControl();
+            PlayerData playerData = player.gameObject.GetComponent<PlayerData>();
+            playerData.DisableControl();
         }
     }
 
     private void EnablePlayerControl()
     {
-        for (int i = 0; i < m_Players.Length; i++)
+        foreach (GameObject player in players)
         {
-            m_Players[i].EnableControl();
+            PlayerData playerData = player.gameObject.GetComponent<PlayerData>();
+            playerData.EnableControl();
         }
     }
 
     private void ResetAllPlayers()
     {
-        for(int i = 0; i < m_Players.Length; i++)
+        foreach(GameObject player in players)
         {
-            m_Players[i].Reset();
+            PlayerData playerData = player.gameObject.GetComponent<PlayerData>();
+            playerData.ResetPlayer();
         }
     }
 
@@ -125,7 +148,7 @@ public class GameManager : MonoBehaviour {
     {
         EnablePlayerControl();
 
-        m_MessageText.text = string.Empty;
+        messageText.text = string.Empty;
 
         while (hasScored == false)
         {
@@ -133,70 +156,67 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-
     private IEnumerator RoundEnding()
     {
+        
         if(lastScorer != null)
         {
-            m_RoundWinner = lastScorer;
+            roundWinner = lastScorer;
         }
 
         DisablePlayerControl();
 
-        m_GameWinner = GetGameWinner();
+        gameWinner = GetGameWinner();
 
-        GameObject playerwon = m_RoundWinner.GetPlayerObject();
+        GameObject playerwon = roundWinner.GetPlayerObject();
 
         Animator animator = playerwon.GetComponent<Animator>();
+
         animator.SetBool("Scored", true);
 
         string message = EndMessage();
-        m_MessageText.text = message;
-
-
-        yield return m_EndWait;
+        messageText.text = message;
 
         animator.SetBool("Scored", false);
 
+        yield return endWait;
         Destroy(currentSoccerBall);
+    }
+
+    private TeamId GetGameWinner()
+    {
+        return teams.getWinner(roundsToWin);
     }
 
     private string EndMessage()
     {
-        string message = "no winner";
-
-        if(m_RoundWinner != null)
+        /*
+        if(roundWinner != null)
         {
-            message = m_RoundWinner.m_ColoredPlayerText + " WINS THE ROUND!";
+            message = roundWinner.m_ColoredPlayerText + " WINS THE ROUND!";
         }
 
         message += "\n\n\n\n";
 
-        for(int i = 0; i < m_Players.Length; i++)
+        for(int i = 0; i < players.Length; i++)
         {
-            message += m_Players[i].m_Wins;
-            if(i + 1 < m_Players.Length)
+            message += players[i].m_Wins;
+            if(i + 1 < players.Length)
             {
                 message += "-";
             }
         }
 
-        if (m_GameWinner != null)
+        if (gameWinner != null)
         {
-            message = m_GameWinner.m_ColoredPlayerText + " WINS THE GAME!";
+            message = gameWinner.m_ColoredPlayerText + " WINS THE GAME!";
+        }else{
+            string message = "no winner";
         }
+        
 
         return message;
-    }
-
-    private PlayerManager GetGameWinner()
-    {
-        for(int i = 0; i < m_Players.Length; i++)
-        {
-            if (m_Players[i].m_Wins == m_NumRoundsToWin)
-                return m_Players[i];
-        }
-
+        */
         return null;
     }
 
