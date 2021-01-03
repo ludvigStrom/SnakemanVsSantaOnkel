@@ -22,8 +22,8 @@ public class Teams : MonoBehaviour
     {
         spawnPointManager = GameObject.Find("SpawnPointManager").GetComponent<SpawnPointManager>();
         
-        Team teamOne = new Team(TeamId.SnakeMan, spawnPointManager.GetSpawnPoints(TeamId.SnakeMan));
-        Team teamTwo = new Team(TeamId.SantaOnkel, spawnPointManager.GetSpawnPoints(TeamId.SantaOnkel));
+        Team teamOne = new Team(TeamId.SnakeMan);
+        Team teamTwo = new Team(TeamId.SantaOnkel);
         teams.Add(teamOne);
         teams.Add(teamTwo);
     }
@@ -90,8 +90,6 @@ public class Teams : MonoBehaviour
         private List<GameObject> players;
         private TeamId teamId;
 
-        public List<SpawnPoint> spawnPoints;
-
         private int goals;
     
         public List<GameObject> getPlayers()
@@ -99,10 +97,9 @@ public class Teams : MonoBehaviour
             return players;
         }
 
-        public Team(TeamId teamId, List<SpawnPoint> spawnPoints)
+        public Team(TeamId teamId)
         {
-            players = new List<GameObject>();
-            this.spawnPoints = spawnPoints;            
+            players = new List<GameObject>();      
             this.teamId = teamId;
             this.goals = 0;
         }
